@@ -1,0 +1,40 @@
+{
+  "developers": [
+    {
+      "name": "Lightning_Splash",
+      "displayName": "LSPLASH",
+      "role": "Creator / programming / design / writing / audio / graphics",
+      "image": "../assets/devs/lsplash.png"
+    },
+    {
+      "name": "RediblesQW",
+      "displayName": "Redibles",
+      "role": "Co-creator / building / modelling / environment art / design / writing",
+      "image": "../assets/devs/redibles.png"
+    },
+    {
+      "name": "NormallyAve",
+      "displayName": "NormallyAve",
+      "role": "Entity AI / room generation / death tips / graphics",
+      "image": "../assets/devs/normallyave.png"
+    },
+    {
+      "name": "jasper_creations",
+      "displayName": "jasper_creations",
+      "role": "Animation / additional programming",
+      "image": "../assets/devs/jasper.png"
+    },
+    {
+      "name": "Ghostly_Wowzers",
+      "displayName": "Ghostly_Wowzers",
+      "role": "Graphics / artwork / entity contributions",
+      "image": "../assets/devs/ghostly.png"
+    },
+    {
+      "name": "Echidenpai",
+      "displayName": "Echidenpai",
+      "role": "Entity AI / Mines and Outdoors systems",
+      "image": "../assets/devs/echidenpai.png"
+    }
+  ]
+}

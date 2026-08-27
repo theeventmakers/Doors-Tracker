@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DOORS Tracker</title>
+
+  <meta
+    name="description"
+    content="An unofficial DOORS update, development and floor tracker."
+  >
+
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <div class="brand">
+      <div class="brand-main">DOORS</div>
+      <div class="brand-sub">TRACKER</div>
+    </div>
+
+    <nav class="navigation" aria-label="Main navigation">
+
+      <button class="nav-item active" data-page="overview">
+        <span>⌂</span>
+        <span>Overview</span>
+      </button>
+
+      <button class="nav-item" data-page="game-updates">
+        <span>▣</span>
+        <span>Game Updates</span>
+      </button>
+
+      <button class="nav-item" data-page="updates">
+        <span>◷</span>
+        <span>Updates</span>
+      </button>
+
+      <button class="nav-item" data-page="minor-updates">
+        <span>·</span>
+        <span>Minor Updates</span>
+      </button>
+
+      <button class="nav-item" data-page="dev-messages">
+        <span>□</span>
+        <span>Dev Messages</span>
+      </button>
+
+      <button class="nav-item" data-page="development">
+        <span>⚙</span>
+        <span>Development</span>
+      </button>
+
+      <button class="nav-item" data-page="status">
+        <span>●</span>
+        <span>Status</span>
+      </button>
+
+      <button class="nav-item" data-page="floors">
+        <span>▤</span>
+        <span>Floors</span>
+      </button>
+
+      <button class="nav-item" data-page="sources">
+        <span>◎</span>
+        <span>Sources</span>
+      </button>
+
+    </nav>
+
+    <div class="sidebar-status">
+      <small>TRACKER STATUS</small>
+
+      <div class="status-line">
+        <span class="status-dot"></span>
+        <span id="tracker-status">Monitoring</span>
+      </div>
+
+      <p id="last-updated">Loading...</p>
+    </div>
+
+  </aside>
+
+
+  <main class="main">
+
+    <header class="topbar">
+
+      <div>
+        <span class="eyebrow">UNOFFICIAL FAN PROJECT</span>
+
+        <h1 id="page-title">
+          DOORS Tracker
+        </h1>
+
+        <p id="page-description">
+          Development, updates, game versions and more.
+        </p>
+      </div>
+
+      <div class="top-actions">
+
+        <a
+          class="button"
+          href="https://www.roblox.com/games/6516141723/DOORS"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Play DOORS ↗
+        </a>
+
+        <a
+          class="button"
+          href="https://x.com/DoorsRoblox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Official X ↗
+        </a>
+
+      </div>
+
+    </header>
+
+
+    <div id="app">
+
+      <section id="overview-page" class="page active"></section>
+
+      <section id="game-updates-page" class="page"></section>
+
+      <section id="updates-page" class="page"></section>
+
+      <section id="minor-updates-page" class="page"></section>
+
+      <section id="dev-messages-page" class="page"></section>
+
+      <section id="development-page" class="page"></section>
+
+      <section id="status-page" class="page"></section>
+
+      <section id="floors-page" class="page"></section>
+
+      <section id="sources-page" class="page"></section>
+
+    </div>
+
+
+    <footer>
+      DOORS Tracker is an unofficial fan project and is not affiliated with
+      LSPLASH or Roblox.
+    </footer>
+
+  </main>
+
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

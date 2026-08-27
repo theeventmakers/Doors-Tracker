@@ -1,0 +1,40 @@
+{
+  "floors": [
+    {
+      "name": "The Hotel",
+      "type": "Floor 1",
+      "status": "released",
+      "image": "../assets/icons/hotel.png"
+    },
+    {
+      "name": "The Mines",
+      "type": "Floor 2",
+      "status": "released",
+      "image": "../assets/icons/mines.png"
+    },
+    {
+      "name": "The Backdoor",
+      "type": "Subfloor",
+      "status": "released",
+      "image": "../assets/icons/backdoor.png"
+    },
+    {
+      "name": "The Rooms",
+      "type": "Subfloor",
+      "status": "reworked",
+      "image": "../assets/icons/rooms.png"
+    },
+    {
+      "name": "The Outdoors",
+      "type": "Subfloor",
+      "status": "released",
+      "image": "../assets/icons/outdoors.png"
+    },
+    {
+      "name": "The Archives",
+      "type": "Subfloor",
+      "status": "upcoming",
+      "image": "../assets/icons/archives.png"
+    }
+  ]
+}

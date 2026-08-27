@@ -1,0 +1,19 @@
+{
+  "updates": [
+    {
+      "name": "The Archives",
+      "type": "Major Update",
+      "releaseDate": "2026-08-28",
+      "status": "upcoming",
+      "image": "../assets/updates/archives.png",
+      "confidence": "official"
+    },
+    {
+      "name": "The Mines",
+      "type": "Floor 2",
+      "status": "released",
+      "image": "../assets/updates/mines.png",
+      "confidence": "official"
+    }
+  ]
+}

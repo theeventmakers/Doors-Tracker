@@ -1,0 +1,37 @@
+name: Tracker Update Check
+
+on:
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+
+permissions:
+
+  contents: write
+
+
+jobs:
+
+  check:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Check repository
+        run: |
+          echo "DOORS Tracker update check"
+          echo "Automatic source verification can be added here."
+          echo "Do not automatically publish unverified community claims."
+
+
+      - name: Finish
+        run: |
+          echo "Tracker check complete."
